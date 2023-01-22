@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <title>Сайт</title>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        background: #F4F1F8;
+    }
+
+    table {
+        width: 600px;
+        height: 400px;
+        border-collapse: collapse;
+        line-height: 1.1;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        background: radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+        color: #0C213B;
+    }
+
+    caption {
+        padding: 10px;
+        color: #F3CD26;
+    }
+
+    caption:before,
+    caption:after {
+        content: "\274B";
+        color: #A9E2CC;
+        margin: 0 10px;
+    }
+
+    th {
+        padding: 10px;
+       /* border: 1px solid #000000;*/
+    }
+
+    td {
+        padding: 5px 2px;
+       /* border: 1px solid #020202;*/
+    }
+    .right{
+        text-align: right;
+    }
+    textarea{
+        width: 100%;
+    }
+</style>
+
+<body>
+    <h1> ЗАО Птицефабрика №1</h1>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="right">
+                        Фамилия
+                    </td>
+
+                    <td>
+                        <input type="text" name="text1" size="20" maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        Инициалы
+                    </td>
+
+                    <td>
+                        <input type="text" name="text2" size="20" maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        Пароль
+                    </td>
+
+                    <td>
+                        <input type="password" name="text1" size="20" maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        Адресс получателя
+                    </td>
+
+                    <td>
+                        <input type="text" name="text1" size="35" maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        Количество
+                    </td>
+
+                    <td>
+                        <input type="text" name="text1" size="5" maxlength="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        Тип
+                    </td>
+
+                    <td>
+                        <select name="tip" size="1">
+                            <option selected value="kur">111111111
+                            <option selected value="kur">22222222
+                            <option selected value="kur">Куринные
+                        </select>
+                        <select name="tip1" size="1">
+                            <option selected value="kur">111111111
+                            <option selected value="kur">22222222
+                            <option selected value="kur">Отборные
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        Доставка
+                    </td>
+
+                    <td>
+                        <input type="radio" name="dos" value="1">Почтой
+                        <input type="radio" name="dos" value="1">Эллектронно
+                        <input type="radio" name="dos" value="1">Курьером
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        Требуется накладная
+                    </td>
+
+                    <td>
+                        <input type="checkbox" name="lan1" value="yes">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        Дополнительная информация
+                    </td>
+
+                    <td>
+                        <textarea></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        <input type="submit" name="f" value="Заказать">
+                    </td>
+
+                    <td>
+                        <input type="submit" name="f" value="Отменить">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
